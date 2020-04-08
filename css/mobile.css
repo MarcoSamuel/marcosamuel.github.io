@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) { 
+
+	html{
+		overflow-x: hidden;
+	}
 	#desktopNav li a{
 		display: none;
 	}
@@ -14,4 +18,12 @@
 		transition: .5s !important;
 		opacity: .6 !important;
 	}
+	.contatos img{
+		width: 50px;
+		height: auto;
+	}
+	.copyright{
+		display: none;
+	}
+
 }
