@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,700;1,400&display=swap');
+:root{
+	--verdeClaro:rgb(27, 207, 108);
+	--verdeEscuro:rgb(34, 190, 111);
+	--cinza:rgb(255, 255, 255);
+	--pretoTransarent:rgba(0,0,0,0.8);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Source Sans Pro', arial;
+    font-size: 100%;
+
+}
+html{
+	background: #eee;
+	overflow-x: hidden;
+}
+button{
+	margin: 20px;
+	cursor: pointer;
+	outline: none;
+}
+.btn{
+	line-height: 50px;
+	padding: 0px 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	color:var(--cinza);
+	background: var(--verdeClaro) none repeat scroll 0% 0%;
+	border: 1px solid var(--verdeClaro) ;
+    transition: all 150ms linear 0s;
+
+}
+button:hover {
+    background: var(--verdeEscuro) none repeat scroll 0% 0%;
+}
+
+.navBarDrop{
+	width: 100%;
+	height: 100vh;
+	background: var(--pretoTransarent);
+	position: absolute;
+	transition: 1s;
+}

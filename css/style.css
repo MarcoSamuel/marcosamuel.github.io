@@ -1,0 +1,176 @@
+
+@font-face{
+	font-family: star-wars;
+	src:url('../fonts/stjedise/STJEDISE.TTF');
+}
+header .banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url(../assets/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+main{
+	width: 100%;
+	height: 100vh;
+	margin-top: 100px;
+}
+.content-infor-header{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:60vh;
+}
+.btn.large{
+	width: 200px;
+	position: absolute;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	padding: 20px;
+}
+
+.navbar > h4{
+	font-size: 2.5em;
+}
+.navbar h4 a{
+	text-decoration: none;
+	color:#fff;
+	outline: none;
+}
+
+.navbar h4 a:after{
+	content: "";
+	color: #fff;
+	margin-left: 10px;
+	border:1px solid #f1f1f1;
+	opacity: 0.1;
+}
+.navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	margin: 4px;
+	margin-right: 40px;
+	font-size: 1.2em;
+	transition: 1s;
+	outline: none;
+
+}
+.navbar ul li a:hover{
+	border-bottom: 2px solid #fff;
+	padding-bottom: 35px;
+	transition: .5s;
+	opacity: .6;
+}
+.dropDown{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.dropDown img{
+	cursor: pointer;
+	z-index: 1;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+#desktopNavMobile{
+	text-align: center;
+	position: relative;
+	top: 30vh;
+	font-size: 40px;
+	margin-left: 30px;
+}
+
+
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
+	justify-items: center;
+	align-items: center;
+	margin-top: 30vh;
+}
+
+.card {
+	font-size: 100px;
+	cursor: pointer;
+	padding: 10px;
+	box-shadow: 0px 4px 4px 2px #a4b0be;
+	margin-top: 40px;
+	border-radius: 12px;
+	transition: 1s;
+}
+.card:hover{
+	transform: scale(1.4) !important;
+	box-shadow: 0px 6px 6px 5px #a4b0be !important;
+}
+.html:hover{color: #e96228;}
+
+.css:hover{color: #31a3d3;}
+
+.js:hover{color: #f7d33c;}
+
+.vue:hover{color: #3fb27f;}
+
+.react:hover{color: #5ed3f3;}
+
+.node:hover{color: #7bb540;}
+
+.pg:hover{color: #31648c;}
+
+.mongo:hover{color: #45aa4e}
+
+.habilidadesName{
+	text-align: center;
+	font-size: 2.8em;
+	position: relative;
+	top: 100px;
+	font-family: 'star-wars',sans-serif;
+}
+.footer{
+	width: 100%;
+	margin-top: 300px;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)),url(../assets/unnamed.jpg);
+	height: 170px;
+	color:#fff;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0px, auto)); 
+	align-items: center;
+	justify-content: space-around;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.footer nav a{
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	padding: 4px;
+}
+.copyright{
+	background: #000;
+	color: #fff;
+	text-align: center;
+}

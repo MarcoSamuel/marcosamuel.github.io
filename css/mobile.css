@@ -1,0 +1,17 @@
+@media (max-width: 575.98px) { 
+	#desktopNav li a{
+		display: none;
+	}
+	.dropDown{
+		display: inline !important;
+	}
+	
+
+	/*Effect on mobile has to be a priority*/
+	.navbar ul li a:hover{
+		border-bottom: 0px solid #fff !important;
+		padding-bottom: 0px !important;
+		transition: .5s !important;
+		opacity: .6 !important;
+	}
+}
